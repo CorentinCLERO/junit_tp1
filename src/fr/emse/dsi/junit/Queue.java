@@ -21,7 +21,6 @@ public class Queue<E> {
         return list.removeFirst();
     }
 
-    // Les nouvelles méthodes demandées
     public int size() {
         return list.size();
     }
