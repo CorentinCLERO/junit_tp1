@@ -60,7 +60,7 @@ public class QueueTest {
 
 	@Test
 	public void testFront() {
-		// Exception pour la file vide
+		// exception
 		try {
 			fa0.front();
 			fail("Should have thrown an exception");
